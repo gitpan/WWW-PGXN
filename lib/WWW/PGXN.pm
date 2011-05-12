@@ -1,6 +1,6 @@
 package WWW::PGXN;
 
-use 5.008001;
+use 5.010;
 use strict;
 use WWW::PGXN::Distribution;
 use WWW::PGXN::Extension;
@@ -12,7 +12,7 @@ use URI::Template;
 use JSON ();
 use Carp;
 
-our $VERSION = v0.12.0;
+our $VERSION = v0.12.1;
 
 sub new {
     my($class, %params) = @_;
