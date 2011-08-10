@@ -14,7 +14,7 @@ WriteMakefile
                    'Module::Build' => '0.30',
                    'Test::MockModule' => '0.05',
                    'Test::More' => '0.96',
-                   'URI::Template' => 0
+                   'URI::Template' => '0.15'
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],

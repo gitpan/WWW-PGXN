@@ -4,7 +4,7 @@
       "David E. Wheeler <david@justatheory.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930001",
    "license" : [
       "perl_5"
    ],
@@ -37,7 +37,7 @@
             "File::Spec" : 0,
             "HTTP::Tiny" : 0,
             "JSON" : 0,
-            "URI::Template" : 0,
+            "URI::Template" : "0.15",
             "perl" : "5.01"
          }
       }
@@ -45,27 +45,27 @@
    "provides" : {
       "WWW::PGXN" : {
          "file" : "lib/WWW/PGXN.pm",
-         "version" : "v0.12.1"
+         "version" : "v0.12.2"
       },
       "WWW::PGXN::Distribution" : {
          "file" : "lib/WWW/PGXN/Distribution.pm",
-         "version" : "v0.12.1"
+         "version" : "v0.12.2"
       },
       "WWW::PGXN::Extension" : {
          "file" : "lib/WWW/PGXN/Extension.pm",
-         "version" : "v0.12.1"
+         "version" : "v0.12.2"
       },
       "WWW::PGXN::Mirror" : {
          "file" : "lib/WWW/PGXN/Mirror.pm",
-         "version" : "v0.12.1"
+         "version" : "v0.12.2"
       },
       "WWW::PGXN::Tag" : {
          "file" : "lib/WWW/PGXN/Tag.pm",
-         "version" : "v0.12.1"
+         "version" : "v0.12.2"
       },
       "WWW::PGXN::User" : {
          "file" : "lib/WWW/PGXN/User.pm",
-         "version" : "v0.12.1"
+         "version" : "v0.12.2"
       }
    },
    "release_status" : "stable",
@@ -81,5 +81,5 @@
          "url" : "http://github.com/theory/www-pgxn/tree/"
       }
    },
-   "version" : "v0.12.1"
+   "version" : "v0.12.2"
 }
