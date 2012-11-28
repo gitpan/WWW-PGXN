@@ -12,7 +12,7 @@ use URI::Template;
 use JSON ();
 use Carp;
 
-our $VERSION = v0.12.2;
+our $VERSION = v0.12.3;
 
 sub new {
     my($class, %params) = @_;
@@ -149,13 +149,10 @@ BEGIN {
 
 sub html_doc_path_for {
     my ($self, $dist, $version, $path) = @_;
-    # XXX Nasty hack until we get + operator in URI Template v4.
-    local $URI::Escape::escapes{'/'} = '/';
     $self->_path_for(htmldoc => {
-        dist       => lc $dist,
-        version    => lc $version,
-        docpath    => $path,
-        '+docpath' => $path,
+        dist    => lc $dist,
+        version => lc $version,
+        docpath => $path,
     });
 }
 
@@ -459,8 +456,8 @@ The supported parameters are:
 
 =item query
 
-The search query. See L<KinoSearch::Search::QueryParser> for the supported
-syntax of the query. Required.
+The search query. See L<Lucy::Search::QueryParser> for the supported syntax of
+the query. Required.
 
 =item index
 

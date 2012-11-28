@@ -4,7 +4,7 @@
       "David E. Wheeler <david@justatheory.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930001",
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "File::Spec::Functions" : 0,
+            "File::Spec::Functions" : "0",
             "Module::Build" : "0.30",
             "Test::MockModule" : "0.05",
             "Test::More" : "0.96"
@@ -33,11 +33,11 @@
             "Test::Pod::Coverage" : "1.06"
          },
          "requires" : {
-            "Carp" : 0,
-            "File::Spec" : 0,
-            "HTTP::Tiny" : 0,
-            "JSON" : 0,
-            "URI::Template" : "0.15",
+            "Carp" : "0",
+            "File::Spec" : "0",
+            "HTTP::Tiny" : "0",
+            "JSON" : "0",
+            "URI::Template" : "0.16",
             "perl" : "5.01"
          }
       }
@@ -45,27 +45,27 @@
    "provides" : {
       "WWW::PGXN" : {
          "file" : "lib/WWW/PGXN.pm",
-         "version" : "v0.12.2"
+         "version" : "v0.12.3"
       },
       "WWW::PGXN::Distribution" : {
          "file" : "lib/WWW/PGXN/Distribution.pm",
-         "version" : "v0.12.2"
+         "version" : "v0.12.3"
       },
       "WWW::PGXN::Extension" : {
          "file" : "lib/WWW/PGXN/Extension.pm",
-         "version" : "v0.12.2"
+         "version" : "v0.12.3"
       },
       "WWW::PGXN::Mirror" : {
          "file" : "lib/WWW/PGXN/Mirror.pm",
-         "version" : "v0.12.2"
+         "version" : "v0.12.3"
       },
       "WWW::PGXN::Tag" : {
          "file" : "lib/WWW/PGXN/Tag.pm",
-         "version" : "v0.12.2"
+         "version" : "v0.12.3"
       },
       "WWW::PGXN::User" : {
          "file" : "lib/WWW/PGXN/User.pm",
-         "version" : "v0.12.2"
+         "version" : "v0.12.3"
       }
    },
    "release_status" : "stable",
@@ -81,5 +81,5 @@
          "url" : "http://github.com/theory/www-pgxn/tree/"
       }
    },
-   "version" : "v0.12.2"
+   "version" : "v0.12.3"
 }
