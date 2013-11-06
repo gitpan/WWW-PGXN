@@ -12,7 +12,7 @@ use URI::Template;
 use JSON ();
 use Carp;
 
-our $VERSION = v0.12.3;
+our $VERSION = v0.12.4;
 
 sub new {
     my($class, %params) = @_;
@@ -189,7 +189,7 @@ sub _url_for {
 sub _request {
     my $self = shift;
     $self->{_req} ||= $self->url =~ m{^file:} ? WWW::PGXN::FileReq->new : HTTP::Tiny->new(
-        agent => __PACKAGE__ . "/$VERSION",
+        agent => __PACKAGE__ . '/' . __PACKAGE__->VERSION,
         proxy => $self->proxy,
     );
 }
